@@ -1,0 +1,16 @@
+{
+  "name": "json2xlsTest",
+  "version": "1.0.0",
+  "description": "Testing json2xls",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+   "type": "git",
+   "url": "git://github.com/kevin/dayPack.git"
+  },
+  "author": "Kevin Sivabalan",
+  "license": "ISC",
+  "dependencies": {}
+}
