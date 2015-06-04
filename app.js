@@ -36,7 +36,7 @@ app.use(json2xls.middleware);
 
 app.get('/', function (req, res) {
 
-  var xls = json2xls(json);
+  var xls = json2xls(json); //this can be send withouth
   var fileName = 'data.xlsx'
 
   fs.writeFile(fileName, xls, 'binary',function (err) {
