@@ -56,8 +56,10 @@ app.get('/', function (req, res) {
 
 });
 
+
+// this is the ideal solution as it doesn't require to save on the server
 app.get('/stream',function(req,res) {
-  return res.xls('data.xlsx', json); // this is the ideal solution as it doesn't require to save on the server
+  return res.xls('data.xlsx', json);
 });
 
 var server = app.listen(3000, function () {
