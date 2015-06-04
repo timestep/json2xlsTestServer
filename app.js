@@ -12,7 +12,8 @@ var json = [
     poo: 123,
     stux: new Date(),
     no: true,
-    chikle: 'hwown'
+    chikle: 'hwown',
+    fick:'=1+1'
   },
   {
     foo: 'nope',
@@ -20,7 +21,8 @@ var json = [
     poo: 12323232,
     stux: new Date() + 1,
     no: true,
-    chikle: 'hwown'
+    chikle: 'hwown',
+    fick:'=1+1'
   },
   {
     foo: 'nope',
@@ -28,7 +30,8 @@ var json = [
     poo: 12323232,
     stux: new Date() + 1,
     no: true,
-    chikle: 'hwown'
+    chikle: 'hwown',
+    fick:'=1+1'
   }
 ]
 
